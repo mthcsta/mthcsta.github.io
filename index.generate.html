@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Matheus Costa » dev...</title>
+<link rel="shortcut icon" href="favicon.ico">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<style>
+*{overflow:hidden;margin:0;padding:0;}
+@-webkit-keyframes __L{0%{left: 0%;}50%{left: 50%;}}
+@keyframes __L{0%{left: 0%;width:50%;}100%{left: 120%;width:0%;}}
+.__l{background:white;height:100%;width:100%;position:fixed;z-index:10000;}
+.__l>div{background: #beff002e;width: 200px;height:4px;margin:auto;margin-top:200px;position:relative;}
+.__l>div::after{content: " ";background:#beff00;position:absolute;width:50%;height:100%;left:0%;-webkit-animation:__L 1s infinite;animation:__L 1s infinite;}
+</style>
+</head>
+<body>
+	<div class="__l"><div></div></div>
+	<header class="noselect">
+		<div class="myPhoto rounded-circle"></div>
+		<div class="mx-auto w-100 text-center my-5 py-5">
+			<p class="display-4 text-nowrap">Olá, Eu sou Matheus Costa</p>
+			<p>Programador Web</p>
+		</div>
+	</header>
+	<nav class="navbar navbar-inverse bg-inverse navbar-toggleable-md">
+		<button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<a class="navbar-brand">Bem Vindo</a>
+		<div class="container navbar-topmenu hidden-xs-down">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item"><a class="nav-link" href="#works">Trabalhos</a></li>
+				<li class="nav-item"><a class="nav-link" href="#skills">Habilidades</a></li>
+				<li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
+			</ul>
+		</div>	
+	</nav>
+	<section class="container my-5">
+		<h1 class="font-weight-normal" id="works">Trabalhos</h1>
+		<section>
+			Projetos desenvolvidos com PHP, Javascript, Bootstrap e muito mais.
+			<div class="p-2">
+				<div class="btn-group-toggle workTags" data-toggle="buttons"></div>		
+			</div>
+			<div class="workSelected"><div></div></div>
+			<div>
+				<div class="row workList"></div>
+			</div>
+		</section>
+
+		<hr>
+
+		<h1 class="font-weight-normal" id="skills">Habilidades</h1>
+		<section>
+			<p>Abaixo listo minhas habilidades web e o meu nível de conhecimento</p>
+			<div class="row skillList">
+			</div>
+		</section>
+	</section>
+	<footer>
+		<div class="container text-light pt-4 pb-4">
+			<div class="row">
+				<div class="col-md-8 offset-md-4 col-sm-12 p-2 mySocials">Veja mais em minhas redes sociais</div>
+				<div class="col-md-4 contact">
+					<h2 class="text-success pb-3" id="contact">Contato</h2>
+					<p><a href="tel:+5551991315657"><i class="fab fa-whatsapp text-success"></i>&nbsp; (51) 99131-5657</a></p>
+					<p><a href="mailto:matheuscosta.dev@yahoo.com?subject=[Contato] Site Pessoal"><i class="fas fa-envelope text-success"></i>&nbsp; matheuscosta.dev@yahoo.com</a></p>
+					<p><i class="fas fa-map-marked text-success"></i>&nbsp; Porto Alegre, Rio Grande do Sul</p>
+				</div>
+				<div class="col-md-4 lead">
+					<a target="_blank" class="d-block py-4 mt-2 text-nowrap" href="https://www.github.com/mthcsta"><i class="fab fa-github text-success"></i> www.github.com/mthcsta</a>
+					<a target="_blank" class="d-block text-nowrap" href="https://www.youtube.com/channel/UCaFlbU0BlcZ7z_Y2qGIKaEA"><i class="fab fa-youtube text-success"></i> www.youtube.com/channel</a>
+				</div>
+				<div class="col-md-4 lead">
+					<a target="_blank" class="d-block py-4 mt-2 text-nowrap" href="https://www.linkedin.com/in/mthcsta/"><i class="fab fa-linkedin text-success"></i> www.linkedin.com/in/mthcsta</a>
+				</div>			
+			</div>
+		</div>
+	</footer>
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">	
+	<script src="main.min.js"></script>
+	<script src="script.generate.min.js"></script>
+</body>
+</html>

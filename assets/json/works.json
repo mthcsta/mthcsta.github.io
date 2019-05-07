@@ -1,0 +1,24 @@
+[{
+	"title": "Pietre Ambientes",
+	"image": "pietre.png",
+	"about": "Fui programador e designer neste website, feito no final de 2018",
+	"link": "https://www.pietreambientes.com.br/?",
+	"type": "site",
+	"tags": ["WebSite", "PHP", "Javascript", "Bootstrap"]
+},
+{
+	"title": "Turtle Game",
+	"image": "turtle.png",
+	"about": "Minigame criado para aprender melhorar manipulação do DOM, feito no início de 2018.",
+	"link": "https://mthcsta.github.io/turtleGame?",
+	"type": "site",
+	"tags": ["WebGame", "Javascript", "Materialize"]
+},
+{
+	"title": "Mortal Kombat",
+	"image": "mortal.png",
+	"about": "Minigame",
+	"link": "https://www.youtube.com/watch?v=RiD4MBiZUhY&",
+	"type": "video",
+	"tags": ["WebGame", "Javascript", "PHP"]
+}]
