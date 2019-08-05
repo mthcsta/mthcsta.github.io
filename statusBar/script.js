@@ -64,7 +64,7 @@ function getVue(){
         },
         methods:{
             getProjects(){
-                fetch(sBdata.loads.json).then(r=>r.json())
+                fetch(sBdata.site_url + sBdata.loads.json).then(r=>r.json())
                     .then(data=>{
                         console.log(data)
                         let listProjects = data.projects
