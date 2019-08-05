@@ -1,0 +1,55 @@
+{
+    "knowledges":
+    [
+        "PHP",
+        "JavaScript",
+        "CSS",
+        "HTML5",
+        "JSON",
+        "VueJS",
+        "jQuery",
+        "SASS",
+        "APIs",
+        "Python",
+        "ElectronJS",
+        "RegExp"
+    ],
+    "projects":
+    [
+        {
+            "title": "Turtle Game",
+            "link": "turtleGame",
+            "used": [1,2,3,6],
+            "desc": "Jogo das tartarugas ninjas feito em JavaScript(jQuery)",
+            "date": "01-04-2018"
+        },
+        {
+            "title": "VUEather",
+            "link": "vueather",
+            "used": [1,2,3,4,5,7,8],
+            "desc": "Sistema de Weather usando VueJS(e APIs de temperatura)",
+            "date": "18-07-2019"
+        },
+        {
+            "title": "History Writing",
+            "link": "HistoryWriting",
+            "used": [1,2,3,5],
+            "desc": "Escreva uma história, publique e compartilhe com seus amigos.",
+            "date": "20-06-2019"
+        },
+        {
+            "title": "Exercicios em Python",
+            "link": "https://github.com/mthcsta/exercices.py",
+            "used": [9,8,4],
+            "desc": "Exercicios feitos com intenção de praticar um pouco outra linguagem(Python)",
+            "date": null
+        },
+        {
+            "title": "Expressões Regulares",
+            "link": "https://github.com/mthcsta/RegExp",
+            "used": [1,11],
+            "desc": "Exercicios feitos com Regexp em diversas linguagens.",
+            "date": null
+        }
+    ]
+}
