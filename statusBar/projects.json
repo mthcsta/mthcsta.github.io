@@ -50,6 +50,13 @@
             "used": [1,11],
             "desc": "Exercicios feitos com Regexp em diversas linguagens.",
             "date": null
+        },
+        {
+            "title": "Gerador de CPF",
+            "link": "cpf",
+            "used": [1,2,4,5,7,12],
+            "desc": "Gerador e verificador de CPF",
+            "date": "05-08-2019"
         }
     ]
 }
