@@ -39,7 +39,7 @@
         },
         {
             "title": "Exercicios em Python",
-            "link": "https://github.com/mthcsta/exercices.py",
+            "link": "https://github.com/mthcsta/exercises.py",
             "used": [9,8,4],
             "desc": "Exercicios feitos com intenção de praticar um pouco outra linguagem(Python)",
             "date": null
